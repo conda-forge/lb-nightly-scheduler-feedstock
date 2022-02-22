@@ -1,5 +1,5 @@
 {% set name = "lb-nightly-scheduler" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lb-nightly-scheduler-{{ version }}.tar.gz
-  sha256: 946e881e1670774fd30502095af902069fc006c791dd965e7b3fa373ec6431b0
+  sha256: d1a03ba3799678007bad437cc7a226eee5023f2393354fcca1b5cd9187e059dd
 
 build:
   number: 0
